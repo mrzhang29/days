@@ -1,0 +1,145 @@
+body {
+	font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+	font-size: 14px;
+	color: #666;
+	background-attachment: fixed;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+a {
+	color: #A4A1A2;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:ACTIVE {
+	color: #3B5998;
+}
+
+a:hover{
+	color: #F60;
+	text-decoration:  none;
+}
+
+a:VISITED {}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+em {
+	font-style: normal;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0
+}
+
+.headerTop {
+	height: 40px;
+	border-bottom: 2px solid #AACCEE;
+	line-height: 40px;
+	position: relative;
+}
+
+.htopLeft {
+	width: 79px;
+	height: 40px;
+	float: left;
+	margin-left: 30px;
+	background: url(../img/qq.gif) no-repeat center;
+}
+
+.htopRight {
+	float: right;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #0000FF;
+	font-weight: 700;
+}
+
+h1 {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	width: 250px;
+	margin: -30px auto;
+	padding: 3px 0;
+	background-color: #fff;
+}
+.banner {
+	height: 30px;
+}
+.main {
+	width: 900px;
+	margin: 50px auto;
+
+}
+
+.timeNav a {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 130px;
+	line-height: 30px;
+	background-color: #AACCEE;
+	margin-left: 10px;
+	border-radius: 30px 30px 0 0;
+	color: #0000FF;
+}
+.timeNav a:first-child{
+	margin-left: 35px;
+}
+.content {
+	margin: 0 auto;
+	border: 2px solid #AACCEE;
+	padding: 30px 0 30px 28px;
+}
+.contentBlock {
+	display: block;
+	width: 126px;
+	height: 130px;
+	margin: 5px;
+	float: left;
+	text-align: center;
+	border: 2px solid #AACCEE;
+}
+h2 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	color: #666666;
+}
+.contentBlock p {
+	padding: 10px;
+	
+}
+footer {
+	text-align: center;
+}
+*/
